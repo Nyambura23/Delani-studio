@@ -8,6 +8,7 @@ body{
 color: black;
 font-size: 10px;
 text-align: center;
+justify-content: center;
 
 }
 
@@ -21,20 +22,49 @@ text-align: center;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 0px;
+  padding:0px;
   margin: 0px;
 
   }
   #intro h1 {
-    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
     line-height: 0.8;
     color: white;
+    
   }
   
   #intro p {
-    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 8px;
     color: white;
   }
+ 
+  
+
+#about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    color: black
+  }
+
+  #about h2{
+    font-size:8px;
+    }
+    
+    #about p{
+      font-size: 6px;
+    }
+
 #services{
   background-image:url(../IP3/assets/backgrounds/s_image.jpg);
   background-size: cover;
@@ -51,11 +81,28 @@ text-align: center;
 }
 
 #services h3{
-font-size: 10px;
+font-size: 8px;
 }
 
 #services p{
-  font-size: 8px;
+  font-size: 6px;
+}
+
+
+#portfolio{
+  display: flex;
+  flex-direction: column;
+
+}
+.gallery{
+  display: flex;
+  flex-wrap: wrap
+}
+
+.gallery img{
+  width: 360px;
+  height: 360px;
+  
 }
 
 #contact{
