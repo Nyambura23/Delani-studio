@@ -88,20 +88,56 @@ font-size: 8px;
   font-size: 6px;
 }
 
+#what-we-do{
+display: flex;
+flex-direction: column;
+padding: 10px;
 
+}
+.row{
+  display: flex;
+
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  width: 72px;
+  height: 48px;
+  
+}
+#what-we-do h4{
+  font-size: 8px;
+}
+#what-we-do h{
+  font-size: 4px;
+}
+#what-we-do p{
+  font-size: 3px;
+}
 #portfolio{
   display: flex;
   flex-direction: column;
-
+  align-items: center;
+  padding: 10px; ;
+  
 }
+  #portfolio h5{
+    font-size: 8px;
+    }
+
 .gallery{
   display: flex;
-  flex-wrap: wrap
+  flex-wrap: wrap;
+  justify-content: space-around;
+  box-sizing: border-box;
 }
 
 .gallery img{
-  width: 360px;
-  height: 360px;
+  width: 60px;
+  height: 42px;
+  margin: 3px;
+
   
 }
 
