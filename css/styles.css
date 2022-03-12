@@ -106,7 +106,7 @@ padding: 20px;
   flex-direction: column;
   width: 68px;
   height: 42px;
-  margin: 6px;px ;
+  margin: 6px;
   align-items: center;
   text-align: center;
   padding: 8px; ;
@@ -122,6 +122,12 @@ padding: 20px;
 #what-we-do p{
   font-size: 3px;
 }
+
+.box img{
+  width: 68px;
+  height: 42px;
+}
+
 #portfolio{
   display: flex;
   flex-direction: column;
