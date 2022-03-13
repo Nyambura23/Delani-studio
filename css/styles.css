@@ -166,15 +166,15 @@ padding: 20px;
   background-image:url(../IP3/assets/backgrounds/c_image.jpg);
   background-size: cover;
   background-image: center;
-  height: 50vh;
+  height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   box-sizing: border-box;
   align-items: center;
   text-align: center;
-  padding: 0px;
-  margin: 0px;
+  padding:5px;
+  margin: 2px;
  
 }
 #contact input{
@@ -184,26 +184,37 @@ padding: 0;
 align-items: center;
 background-color: transparent;
 color: white;
+margin: 2px;
+padding: 2px;
 }
 
 #msg{
 background-color: transparent;
 color: white;
+margin: 2px;
+padding: 2px;
 }
 #contact h6{
   font-size: 10px;
-  padding-top: 10px;
+  padding-top: 5px;
   }
   
 #footer{
-  display: flex;
-  flex-direction: column;
+
   justify-content: space-around;
   box-sizing: border-box;
-
+  padding-top:10px ;
 
 }
-  
+  .socials{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+   
+   
+
+  }
 
 
 
