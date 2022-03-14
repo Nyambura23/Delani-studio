@@ -256,11 +256,11 @@ align-items: center;
 
 
 
-  .socials{
-    display: flex;
-    flex-direction:row;
-    align-items: center;
-    align-content: center;
+.socials{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  align-content: center;
     
   }
 
