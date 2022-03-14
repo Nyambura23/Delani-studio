@@ -67,7 +67,7 @@
   });
 
   $(document).ready(function(){
-    $("#contact").submit(function(event){
+    $("#CONTACT").submit(function(event){
       var name = $("input#name").val();
       var email = $("input#email").val();
       var message = $("").val();
