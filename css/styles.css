@@ -181,6 +181,7 @@ font-weight: bold;
   flex-wrap: wrap;
   justify-content: space-around;
   box-sizing: border-box;
+  align-items: center;
  
 }
 
