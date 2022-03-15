@@ -12,70 +12,61 @@
         $('.hidden-content'+index).toggle()
       });
     });
-  });
-
-  $(document).ready(function(){
-    $("#work1").mouseover(function(){
-      $("#overlay").show();
-    }).mouseout(function(){
-      $("#overlay").hide();
+    
+    $("#work1").click(function(){
+      $("#overlay1").show();
+    }).click(function(){
+      $("#overlay1").hide();
     });
-  });
-  $(document).ready(function(){
-    $("#work2").mouseover(function(){
+    $("#work2").click(function(){
       $("#overlay2").show();
-    }).mouseout(function(){
+    }).click(function(){
       $("#overlay2").hide();
     });
-  });
-  $(document).ready(function(){
-    $("#work3").mouseover(function(){
+    $("#work3").click(function(){
       $("#overlay3").show();
-    }).mouseout(function(){
+    }).click(function(){
       $("#overlay3").hide();
     });
-  });
-  $(document).ready(function(){
-    $("#work4").mouseover(function(){
+    $("#work4").click(function(){
       $("#overlay4").show();
-    }).mouseout(function(){
+    }).click(function(){
       $("#overlay4").hide();
     });
-  });
-  
-  $(document).ready(function(){
-    $("#work5").mouseover(function(){
+    $("#work5").click(function(){
       $("#overlay5").show();
-    }).mouseout(function(){
+    }).click(function(){
       $("#overlay5").hide();
     });
-    $("#work6").mouseover(function(){
+    $("#work6").click(function(){
       $("#overlay6").show();
-    }).mouseout(function(){
+    }).click(function(){
       $("#overlay6").hide();
     });
-    $("#work7").mouseover(function(){
+    $("#work7").click(function(){
       $("#overlay7").show();
-    }).mouseout(function(){
+    }).click(function(){
       $("#overlay7").hide();
     });
-    $("#work8").mouseover(function(){
+    $("#work8").click(function(){
       $("#overlay8").show();
-    }).mouseout(function(){
+    }).click(function(){
       $("#overlay8").hide();
     });
-  });
-
-  $(document).ready(function(){
-    $("#CONTACT").submit(function(event){
-      var name = $("input#name").val();
-      var email = $("input#email").val();
-      var message = $("").val();
-      if ($("input#name").val() && $("input#email").val()) {
-          alert(name + ", we have received your message. Thank you for reaching out to us.");
-      } else {
-          alert("Please enter your Name and Email");
-      }
-      
+  
+  
+    (function($) {window.fnames = new Array(); 
+    window.ftypes = new Array();
+    fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';
+    ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';
+    fnames[3]='ADDRESS';ftypes[3]='address';
+    fnames[4]='PHONE';ftypes[4]='phone';
+    fnames[5]='BIRTHDAY';
+    ftypes[5]='birthday';
+    fnames[6]='MMERGE6';
+    ftypes[6]='text';}(jQuery));
+    var $mcj = jQuery.noConflict(true);
     });
-  })
+    
+  
+  
