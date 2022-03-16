@@ -12,13 +12,20 @@
         $('.hidden-content'+index).toggle()
       });
     });
-    
+
+    // let details=[1,2,3,4,5,6,7,8]
+    // details.forEach((index)=>{
+    // $("#work"+index).mouseover(function(){
+    //   $("#overlay"+index).show();
+    // }).mouseout(function(){
+    //   $("#overlay"+index).hide();
+    // });
+
     $("#work1").mouseover(function(){
       $("#overlay1").show();
     }).mouseout(function(){
       $("#overlay1").hide();
     });
-
     $("#work2").mouseover(function(){
       $("#overlay2").show();
     }).mouseout(function(){
@@ -54,17 +61,21 @@
     }).mouseout(function(){
       $("#overlay8").hide();
     });
-  
-  
-    (function($) {window.fnames = new Array(); 
-    window.ftypes = new Array();
-    fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';
-    ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';
-    fnames[6]='MMERGE6';
-    ftypes[6]='text';}(jQuery));
-    var $mcj = jQuery.noConflict(true);
+  });
     
-    });
+    $(document).ready(function(){
+      $("form#formA").submit(function(event){
+        // event.preventDefault();
+        var name = $("input#MERGE1").val();
+        var email = $("input#MERGE0").val();
+        var message = $("textarea#comment").val();
+        if ($("input#MERGE1").val() && $("input#MERGE0").val()){
+          alert(name + ", we have received your message. Thank you for reaching out to us.");
+        }
+        else {
+          alert("Please enter your name and email!");
+        }
+        
+      });
     
-  
-  
+ });
