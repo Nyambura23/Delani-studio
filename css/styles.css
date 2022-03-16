@@ -193,8 +193,6 @@ font-weight: bold;
   box-sizing: border-box;
   align-items: center;
  
- 
- 
 }
 
 .gallery img{
@@ -202,7 +200,31 @@ font-weight: bold;
   height: 250px;
   margin: 2px;
 
-  
+}
+#overlay1{
+  font-size: 20px;
+}
+
+#overlay2{
+  font-size: 20px;
+}
+#overlay3{
+  font-size: 20px;
+}
+#overlay4{
+  font-size: 20px;
+}
+#overlay5{
+  font-size: 20px;
+}
+#overlay6{
+  font-size: 20px;
+}
+#overlay7{
+  font-size: 20px;
+}
+#overlay8{
+  font-size: 20px;
 }
 
 #contact{
