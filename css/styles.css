@@ -36,7 +36,7 @@ font-family: Noto Serif Display;
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 12px;
+    font-size: 30px;
     line-height: 0.8;
     color: white;
     padding: 10px;
@@ -49,7 +49,7 @@ font-family: Noto Serif Display;
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 12px;
+    font-size: 30px;
     color: white;
     padding-top:0px;
     line-height: 0.8;
@@ -67,17 +67,18 @@ font-family: Noto Serif Display;
     margin: 0px;
     color: black
     
+    
 
   }
 
   #about h2{
-    font-size:12px;
+    font: size 25px; 
     padding-top: 10px;
     font-weight: bold;
     }
     
     #about p{
-      font-size: 8px;
+      font-size: 20px;
      
     }
 
@@ -85,7 +86,7 @@ font-family: Noto Serif Display;
   background-image:url(../assets/backgrounds/s_image.jpg);
   background-size: cover;
   background-image: center;
-  height: 50vh;
+  height: 40vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -98,13 +99,13 @@ font-family: Noto Serif Display;
 }
 
 #services h3{
-font-size: 12px;
+font: size 25px; 
 font-weight: bold;
 
 }
 
 #services p{
-  font-size: 8px;
+  font-size: 20px;
 
   
 }
@@ -121,16 +122,19 @@ font-weight: bold;
 .col-md-4{
   display: flex;
   flex-direction: column;
-  height: 75px;
-  width: 100px;
+  height: 150px;
+  width: 200px;
   align-items: center;
   text-align: center;
   padding: 5px;
   margin: 12px;
   
- 
-}
 
+}
+.img-fluid{
+  height: 150px;
+  width: 150px;
+}
 
 .hidden-content1{
   display: none;
@@ -142,21 +146,22 @@ font-weight: bold;
   display: none;
 }
 #what-we-do h4{
-  font-size: 12px;
+  font-size:  25px; 
   font-weight: bold;
+  padding: 20px;
 
 }
 #what-we-do h{
-  font-size: 5px;
+  font-size: 20px;
   font-weight: bold;
-
   
-   
 }
-#what-we-do p{
-  font-size: 5px;
 
-  
+/* .content1 col-md-4{
+ 
+} */
+#what-we-do p{
+  font-size: 15px;  
   
 }
 
@@ -165,21 +170,20 @@ font-weight: bold;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  margin-left:20px;
-  margin-right: 20px; 
-  padding-top: 20px;
+  padding: 10px;
+  margin: 10px;
 
 }
 
 #portfolio h5{
-    font-size: 12px;
+    font-size: 20px;
     font-weight: bold;
   }
   .col-md-3 img{
    max-width: 100%;
    max-height: 100%;
    margin: 20px;
-   padding: 0;
+   padding: 20px;
    
   }
 .gallery{
@@ -190,11 +194,12 @@ font-weight: bold;
   align-items: center;
  
  
+ 
 }
 
 .gallery img{
-  width: 78px;
-  height: 52px;
+  width: 250px;
+  height: 250px;
   margin: 2px;
 
   
@@ -205,9 +210,15 @@ font-weight: bold;
   background-size: cover;
   background-image: center;
   background-color: transparent;
-  height: 150vh;
+  height: 55vh;
 
 }
+
+#contact h6{
+  font-size: 20px
+  
+}
+
 input[type=text],input[type=email],#comment{
   background: transparent;
   color: white;
@@ -240,12 +251,12 @@ input[type=text],input[type=email],#comment{
 margin-top: 20px;
 padding-top: 20px;
 margin:5px;
-font-size: 12px;
+font-size: 20px;
 font-weight: bold;
 align-items: center;
 }
 
 .footer-copyright{
- font-size: 12px;
+ font-size: 20px;
   }
    
